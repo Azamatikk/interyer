@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.service {
+    display: block;
+}
+
+.name_service {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 275px;
+    align-items: center;
+}
+
+.service_text h3,
+h1 {
+    line-height: 6px;
+}
+
+.service_text h3 {
+    font-size: 20px;
+    color: grey;
+}
+
+.service_text h1 {
+    font-size: 30px;
+
+}
+
+.service_button .btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    box-shadow: 0px 2.5px 1px 1px rgba(34, 60, 80, 0.2);
+    margin-right: 15px;
+}
+
+.service_button button i {
+    text-align: center;
+}
+
+.service_cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    box-shadow: 4px 4px 5px 5px rgba(34, 60, 80, 0.2);
+    border-radius: 45px 0 45px 0 !important;
+    border: none;
+    margin: 50px 25px;
+    padding: 15px;
+}
+
+#foo {
+    background-color: orange;
+}
+
+.paski_qismi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yozular button {
+    color: white;
+    background-color: rgb(7, 108, 26);
+    border-radius: 20px 0 20px 0;
+    border: none;
+    padding: 10px 22px;
+}
+
+.yozular {
+    margin-left: 70px;
+}
+
+.rasim {
+    width: 450px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+@media (max-width: 1100px) {
+    .paski_qismi {
+        display: block;
+        margin: 0 15%;
+        padding-bottom: 50px;
+    }
+
+    .name_service {
+        display: block;
+        margin: 0 35%;
+    }
+
+    .service_text h3,
+    h1 {
+        line-height: 20px;
+        width: 150px;
+        margin: 0 35%;
+    }
+
+    .service_button {
+        margin: 0 35%;
+        width: 100px;
+    }
+    .yozular h1{
+        margin-left: 0;
+    }
+    .rasim{
+        max-width: 360px;
+        max-height: 380px;
+        margin-bottom: 80px;
+        margin: 0 auto !important;
+    }
+}
